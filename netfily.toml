@@ -1,5 +1,5 @@
 [build]
-  publish = "Web"
+  publish = "web"
 
 [build.environment]
   NODE_VERSION = "20"
