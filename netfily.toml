@@ -1,5 +1,5 @@
 [build]
-  publish = "netlify-deploy"
+  publish = "Web"
 
 [build.environment]
   NODE_VERSION = "20"
