@@ -4,7 +4,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo, Bot
 from telegram.ext import Application, CommandHandler
 
 logging.basicConfig(level=logging.INFO)
-TOKEN = os.environ.get("BOT_TOKEN", "").strip()
+TOKEN = os.environ.get("8823524687:AAEN9I8Lfl3N40HgfuQK6uXDZAP3x9Rpxs4", "").strip()
 WEBAPP_URL = os.environ.get("WEBAPP_URL", "https://etntest8237.netlify.app").strip()
 
 async def start(update, context):
