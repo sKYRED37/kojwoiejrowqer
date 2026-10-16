@@ -5,7 +5,7 @@ from werkzeug.exceptions import HTTPException
 
 app = Flask(__name__)
 BOT_TOKEN = os.environ.get("8823524687:AAEN9I8Lfl3N40HgfuQK6uXDZAP3x9Rpxs4", "").strip()
-ADMIN_IDS = {x.strip() for x in os.environ.get("ADMIN_IDS", "").split(",") if x.strip()}
+ADMIN_IDS = {x.strip() for x in os.environ.get("1766395031", "5686836766").split(",") if x.strip()}
 DB_PATH = os.environ.get("ETN_DB_PATH", "/data/etn.sqlite3")
 MAX_INITDATA_AGE = int(os.environ.get("MAX_INITDATA_AGE", "86400"))
 
