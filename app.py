@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify, g, send_from_directory
 from werkzeug.exceptions import HTTPException
 
 app = Flask(__name__, static_folder="web", static_url_path="/static")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.environ.get("8823524687:AAGMTeT1x8c887ppfQJKy9qvkULUxOpjPi4", "").strip()
 ADMIN_IDS = {x.strip() for x in os.environ.get("ADMIN_IDS", "").split(",") if x.strip()}
 ADMIN_USERNAMES = {x.strip().lstrip("@").lower() for x in os.environ.get("ADMIN_USERNAMES", "wtfskyred,kirill_sarychev11,d3ffolter").split(",") if x.strip()}
 
